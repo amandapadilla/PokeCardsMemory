@@ -1,0 +1,26 @@
+.header {
+  background-color: darkred;
+  padding: 0 15px 0 15px;
+
+  &__pikachu {
+    top: 15px;
+    margin: 5px 15px 5px 15px;
+    position: absolute;
+    max-height: 200px;
+    z-index: 1;
+  }
+  &__cover {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 100px;
+  }
+  &__title {
+    padding: 25px;
+    text-align: center;
+    font-family: "Lexend Deca", sans-serif;
+    color: white;
+    background-color: black;
+    border-radius: 50px 50px 0 0;
+  }
+}
